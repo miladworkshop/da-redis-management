@@ -12,7 +12,7 @@ This plugin works on every DirectAdmin server, but the included setup script is 
 For enabeling, starting and stopping for redis instances it uses sudo with minimal permissions.
 ## Plugin installation
 ```
-cd /usr/local/directadmin/plugins
+cd /usr/local/directadmin/plugins/
 git clone https://github.com/miladworkshop/da-redis-management.git redis_management
 sh redis_management/scripts/install.sh
 ```
